@@ -24,4 +24,4 @@ jobs: # specify the specific jobs that should be run as part of the workflow
     - name: Push Docker image to registry
       run: |
         docker login -u khabdrick -p Muhammed-1998
-        docker push my-python-app
+        docker push khabdrick/ci_cd_ct:v1
